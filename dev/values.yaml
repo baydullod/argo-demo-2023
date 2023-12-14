@@ -23,5 +23,5 @@ ingress:
           pathType: ImplementationSpecific
   tls: 
     - secretName: dev-artemis-tls
-      hosts:
+     hosts:
        - dev-artemis.baydullod.net
