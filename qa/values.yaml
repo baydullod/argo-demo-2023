@@ -21,7 +21,7 @@ ingress:
       paths:
         - path: /
           pathType: ImplementationSpecific
-  tls: 
+  tls:
     - secretName: qa-artemis-tls
-     hosts:
-       - qa-artemis.baydullod.net
+      hosts:
+        - qa-artemis.baydullod.net
